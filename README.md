@@ -41,6 +41,7 @@ Time spent: Approximately 10 hours spent in total
     - Fixed in version:		4.7.3
   - [x] GIF Walkthrough:	
   	- exploit3/exploit3.gif
+	- https://i.imgur.com/zaQAuse.gifv
   - [x] Steps to recreate:	
   	- Upload a media file containing exploit in form of Metadata.
 	- If it doesn't contain Metadata already, we can add it in description of the media file on admin console.
