@@ -1,8 +1,8 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: Approximately 10 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document affecting an old version of WordPress
 
 ## Pentesting Report
 
@@ -15,6 +15,8 @@ Time spent: **X** hours spent in total
   - [x] Steps to recreate: 	Go to wordpress site and paste this link in the comment box and post.<a title='xonmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
 
 
+
+
 2. [x] (Required) WordPress 3.3-4.7.4 - Large File Upload Error XSS
   - [x] Summary:
     - Vulnerability types:	XSS
@@ -25,6 +27,8 @@ Time spent: **X** hours spent in total
 				Rename it to "anyName <img src=x onerror=alert("Exploit2")>.jpg"
 				From admin console, upload this file.
 				(An error will appear saying file too large, but our exploit will also work and alert box will pop up. This shows the vulnerability that )
+
+
 
 
 3. [x] (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting via Media File Metadata
