@@ -6,7 +6,7 @@ Time spent: Approximately 10 hours spent in total
 
 ## Pentesting Report
 
-1. [x] (Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting
+1. (Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting
   - [x] Summary:
     - Vulnerability types: 	XSS
     - Tested in version: 	4.2 (Released on 04/23/2015)
@@ -17,7 +17,7 @@ Time spent: Approximately 10 hours spent in total
 
 
 
-2. [x] (Required) WordPress 3.3-4.7.4 - Large File Upload Error XSS
+2. (Required) WordPress 3.3-4.7.4 - Large File Upload Error XSS
   - [x] Summary:
     - Vulnerability types:	XSS
     - Tested in version: 	4.2 (Released on 04/23/2015)
@@ -31,7 +31,7 @@ Time spent: Approximately 10 hours spent in total
 
 
 
-3. [x] (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting via Media File Metadata
+3. (Required) WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting via Media File Metadata
   - [x] Summary:
     - Vulnerability types:	XSS
     - Tested in version: 	4.2 (Released on 04/23/2015)
